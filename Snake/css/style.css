@@ -1,0 +1,108 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* body {
+    height: 100%;
+    overflow: hidden;
+} */
+
+body {
+    margin-top: 240px;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    /* display: flex;
+    justify-content: center; */
+}
+
+/* .container > .playground > ul {
+    border: 1px solid #333;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.container > .playground > ul > li {
+    width: auto;
+    height: auto;
+}
+
+.container > .playground > ul > li > ul {
+    display: flex;
+}
+
+.container > .playground > ul > li > ul > li {
+    width: 25px;
+    height: 25px;
+    outline: 1px solid #ccc;
+} */
+
+.container > .board > ul {
+    /* border: 1px solid #1cf; */
+    width: 595px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 200px; */
+    /* margin-bottom: auto; */
+    /* justify-content: center; */
+    /* margin: auto; */
+    /* margin: 0 auto; */
+    /* padding: auto; */
+}
+
+
+.container > .board > ul > li {
+    width: auto;
+    /* height: 200px; */
+    height: auto;
+    /* list-style: none; */
+}
+
+.container > .board > ul > li > ul {
+    display: flex;
+}
+
+.container > .board > ul > li > ul > li {
+    width: 35px;
+    height: 35px;
+    outline: 1px solid #1cf;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+
+
+.gameBoard > ul {
+    border: 1px solid #1cf;
+    width: 375px;
+    height: auto;
+    /* margin-top: 30px; */
+    margin: 0 auto;
+}
+
+.container > .gameBoard > ul > li > ul > li {
+
+    /* width: 25px; */
+    /* height: 25px; */
+    outline: 1px solid thistle;
+}
+
+.container > .gameBoard > ul > li {
+    width: auto;
+    height: 25px;
+}
+
+.container > .gameBoard > ul > li > ul {
+    /* display: flex; */
+}
+
+
